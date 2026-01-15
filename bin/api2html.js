@@ -58,7 +58,9 @@ if (program.args.length === 0) {
 } else {
 
     // Widdershin options
-    let options = {};
+    let options = {
+        expandBody: true
+    };
 
     options.codeSamples = true;
     options.httpsnippet = false;
